@@ -20,15 +20,7 @@ public class Sieve {
             System.out.println("There are no prime numbers less than 2.");
             return;
         }
-     // Initialize a boolean array to track prime status
-        boolean[] isPrime = new boolean[n + 1];
-        for (int i = 2; i <= n; i++) {
-            isPrime[i] = true; // Assume all numbers are prime initially
-        }
-	private static void findPrimesUpTo(int n) {
-		// TODO Auto-generated method stub
-		
-	}
+    
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
